@@ -1,0 +1,33 @@
+1. input : integer
+process: ((integer +5)*2)-7
+output: new integer
+
+control structure was a sequence structure
+
+scanner integer
+calculate new integer
+new integer = ((integer +5)*2)-7
+print new integer
+
+2. input : 3 different integers
+process: sum the integer
+output: display sum
+
+control structure is sequence
+
+scanner int1
+scanner int2
+scanner int3
+sum =int1+int2+int3
+print sum
+
+3. input : 10test exam scores
+process: add all test scores divide by totalnumber of tests
+output: display average
+
+control structure is sequence
+
+scanner [int1,int2,int3,...,int 10]
+sum = [int1+int2+int3+...+int 10]
+average = sum/10
+print average
