@@ -1,0 +1,60 @@
+1. input: Customer's name, purchase amount, and tax code.
+Process: compute the states sales tax, compute total amount due.
+output: customers name, purchase amount, sales tax, and total amount
+
+scanner customers name
+scanner purchase amount
+scanner tax code between (0 tax exempt, 1 state sales tax only (3%), 2 federal and stae sales tax (5%), 3 special taxes (7%))
+if tax code equals 0 
+%tax equals 0%
+if tax code equal 1
+%tax equals 3%
+if tax code equals 2
+%tax equals 5%
+if tax code equals 3
+%tax equals 7%
+else 
+print error re-enter tax code
+total equals (%tax*purchase amount)+purchase amount
+print customers name
+printpurchase amount
+print sales tax
+print total 
+
+
+2. input: employee's number, pay rate, and number of hours worked.
+Process: validate pay rate and hours worked, compute weekly pay. 
+output: employee's number, pay rate, number of hours worked, and weekly pay.
+
+scanner employee's number
+scanner pay rate
+scanner number of hours worked
+if pay rate <25$ and if number of hours worked <60
+pass
+else
+fail and ask to restart due to exceeding pay rate and/or hours worked
+if number of hour worked >35
+ pay rate= payrate*1.5
+else
+pay rate equals payrate
+calculate weekly pay
+weekly pay equals payrate * number of hours worked
+print employee's number
+print pay rate
+print number of hours worked
+print weekly pay
+
+3.input: dimensions of roof, number of inches of rainfall
+process: convert roof ft to roof inches, multiply roof inches by water, divide roof inches by water by 231
+output: display results
+
+scanner length of roof ft
+scanner width of roof ft
+scanner inches of rainfall
+length of roof in equals length of roof ft * 12
+width of roof in equals width of roof ft *12
+calculate cubic in of water
+cubic in of water = length of roof in * width of roof in * inches of rainfall
+calculate gallons of water
+gallons of water = cubic in of water/ 231
+display gallons of water
